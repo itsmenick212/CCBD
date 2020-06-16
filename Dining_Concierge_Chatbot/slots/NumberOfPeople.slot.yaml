@@ -1,0 +1,8 @@
+name: "Number_of_People"
+description: "Number of People to be included in an utterance"
+enumerationValues:
+    - value: "1"
+    - value: "2"
+    - value: "3"
+    - value: "4"
+    - value: "5"

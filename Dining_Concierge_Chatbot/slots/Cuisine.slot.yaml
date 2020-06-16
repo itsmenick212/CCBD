@@ -1,0 +1,9 @@
+name: "Cuisine"
+description: "A cuisine to be included in an utterance"
+enumerationValues:
+    - value: "Italian"
+    - value: "Chinese"
+    - value: "Indian"
+    - value: "Thai"
+    - value: "Korean"
+    - value: "Burmese"

@@ -1,0 +1,8 @@
+name: "Location"
+description: "A location to be included in an utterance"
+enumerationValues:
+    - value: "New York"
+    - value: "Washington D.C."
+    - value: "Maryland"
+    - value: "Chicago"
+    - value: "Buffalo"

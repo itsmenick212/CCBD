@@ -1,0 +1,5 @@
+name: "Phone_Number"
+description: "A phone number to be included in an utterance"
+enumerationValues:
+    - value: "xxx-xxx-xxxx"
+
