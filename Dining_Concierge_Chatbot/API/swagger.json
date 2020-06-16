@@ -1,0 +1,41 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "dining_concierge_API",
+    "description": "Dining Concierge Agent",
+    "version": "1.0.0"
+  },
+  "host": "api.mydomain.com",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/",
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/chatbot": {
+      "post": {
+        "summary": "Sending and Receiving messages from Lex.",
+        "tags": [
+          "NLU"
+        ],
+        "operationId": "sendMessage",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "An NLU response"
+          },
+          "403": {
+            "description": "Unauthorized"
+          },
+          "500": {
+            "description": "Unexpected error"
+          }
+        }
+      }
+    }
+  }
+}
