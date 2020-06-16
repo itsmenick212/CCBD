@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>chatbot template</title>
+  <link rel="stylesheet" href="https://bhavya-dining-concierge-1.s3.amazonaws.com/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/axios/dist/axios.standalone.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/CryptoJS/rollups/hmac-sha256.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/CryptoJS/rollups/sha256.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/CryptoJS/components/hmac.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/CryptoJS/components/enc-base64.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/url-template/url-template.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/apiGatewayCore/sigV4Client.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/apiGatewayCore/apiGatewayClient.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/apiGatewayCore/simpleHttpClient.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/lib/apiGatewayCore/utils.js"></script>
+  <script type="text/javascript" src="https://bhavya-dining-concierge-1.s3.amazonaws.com/apiGateway-js-sdk/apigClient.js"></script>
+  <script src='https://bhavya-dining-concierge-1.s3.amazonaws.com/nlp_compromise.min.js'></script>
+<script  src="https://bhavya-dining-concierge-1.s3.amazonaws.com/script.js"></script>
+</head>
+<body style = "background-image:radial-gradient(yellow, white)">
+<!-- partial:index.partial.html -->
+<div id='bodybox' style = "background-color: powderblue">
+  <div id='chatborder'>
+    <p id="chatlog7" class="chatlog">&nbsp;</p>
+    <p id="chatlog6" class="chatlog">&nbsp;</p>
+    <p id="chatlog5" class="chatlog">&nbsp;</p>
+    <p id="chatlog4" class="chatlog">&nbsp;</p>
+    <p id="chatlog3" class="chatlog">&nbsp;</p>
+    <p id="chatlog2" class="chatlog">&nbsp;</p>
+    <p id="chatlog1" class="chatlog">&nbsp;</p>
+    <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+  </div>
+<div><img src="https://bhavya-dining-concierge-1.s3.amazonaws.com/chatbot.png" height=100dp width =100dp />
+  <br>
+  <br>
+  
+</div>
+
+
+</body>
+</html>
