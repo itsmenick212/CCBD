@@ -1,0 +1,19 @@
+name: "DiningConcierge"
+description: "A dining concierge Bot"
+#intents:
+#    - intentName: "HelloWorld"
+#      intentVersion: "$LATEST"
+#    - intentName: "goodbye"
+#      intentVersion: 1
+clarificationPrompt:
+    messages:
+        - contentType: 'PlainText'
+          content: "I do not understand, please reword your query."
+    maxAttempts: 2
+abortStatement:
+    messages:
+        - contentType: 'PlainText'
+          content: "I do not understand, please reword your query."
+idleSessionTTLInSeconds: 123
+locale: 'en-US'
+childDirected: False
