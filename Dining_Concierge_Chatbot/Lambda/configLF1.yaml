@@ -1,0 +1,6 @@
+#Configuration file for Lambda LF1 function
+role: BasicLambdaRole
+name: LF1
+zip: LF1.zip
+path: ./LF1.py
+handler: LF1.handler
