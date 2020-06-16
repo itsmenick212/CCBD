@@ -1,0 +1,32 @@
+service: aws-nodejs 
+
+custom:
+  region: 'us-east-1'
+  dynamodb: 'mexican'
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  environment:
+    YELP_API_KEY: ${opt:yelp}
+    DYNAMODB_TABLE: ${self:custom.dynamodb}
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:ListTable
+        - dynamodb:CreateTable
+        - dynamodb:DescribeTable
+      Resource: "arn:aws:dynamodb:${self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
+
+functions:
+  getMexican:
+    handler: handler.getMexican
+    events:
+      - schedule:
+          name: get-current-mexican
+          description: 'launch a lambda function to pull all Mexican cuisine businesses in New York, NY and save them into a dynamodb table'
+          rate: cron(0 0 * * ? *)
+          enabled: false
