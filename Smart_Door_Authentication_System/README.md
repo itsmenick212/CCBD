@@ -1,2 +1,1 @@
-# Smart_Door_Authentication_System
-Cloud Computing and Big Data - Fall 2019 Homework Assignment 2: Smart Door Authentication System
+• Implemented a Smart Door authentication system using Kinesis Video Streams and Amazon Rekognition to build a distributed system that authenticated people and provided them with access to a virtual door
