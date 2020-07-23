@@ -1,1 +1,1 @@
-# Dining_Concierge_Agent
+• Implemented Dining Concierge chatbot, a serverless, microservice-driven web application, which sent users restaurant suggestions given a set of preferences provided to the chatbot through conversation.
