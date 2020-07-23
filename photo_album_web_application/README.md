@@ -1,7 +1,5 @@
-# Nick Gupta
-# Cloud Computing and Big Data
-# Fall 2019
-# Prerequisites
+• Implemented a photo album web app, searchable using natural language through both text and voice. Used Lex, ElasticSearch, and Rekognition to create an intelligent search layer to query photos for people, objects, landmarks, etc
+
 For the JavaScript SDK to work your APIs need to support CORS. The Amazon API Gateway developer guide explains how to [setup CORS for an endpoint]().
 The generated SDK depends on third-party libraries. Include all of the scripts in your webpage
 
