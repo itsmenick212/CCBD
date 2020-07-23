@@ -4,5 +4,5 @@
 
 •	Implemented a Smart Door authentication system using Kinesis Video Streams and Amazon Rekognition to build a distributed system that authenticated people and provided them with access to a virtual door
 
-•	Implemented a photo album web app, searchable using natural language through both text and voice. Used Lex, ElasticSearch, and Rekognition to create an intelligent search layer to query photos for people, objects, landmarks, etc
+•	Implemented a photo album web app, searchable using natural language through both text and voice. Used Lex, ElasticSearch, and Rekognition to create an intelligent search layer to query photos for people, objects, landmarks, etc.
 
