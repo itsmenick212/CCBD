@@ -1,4 +1,4 @@
-# CCBD
+# Cloud Computing and Big Data with Amazon Web Services in Python and JavaScript
 
 •	Implemented Dining Concierge chatbot, a serverless, microservice-driven web application, which sent users restaurant suggestions given a set of preferences provided to the chatbot through conversation
 
